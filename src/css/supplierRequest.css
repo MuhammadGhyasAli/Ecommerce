@@ -1,0 +1,85 @@
+
+#supplierRequestSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5% 11% 1%;
+  padding: 3% 3% 0.75%;
+  width: 71%;
+  background: url("/public/Brand/Image/Banner.svg") no-repeat center center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+#titleNtext h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#titleNtext p {
+  color: white;
+  margin-bottom: 1%;
+  font-size: 0.9rem;
+}
+
+#requestForm {
+  background-color: white;
+  padding: 1%;
+  border-radius: 5px;
+  width: 40%;
+  margin-bottom: 3%;
+}
+
+#requestForm h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1rem;
+}
+
+#requestForm input {
+  display: block;
+  margin: 2% 0;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  width: 96%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+#details {
+  padding-bottom: 3rem;
+}
+
+#quntNpc {
+  display: flex;
+  width: 70%;
+  gap: 1%;
+}
+
+#quntNpc input {
+  flex: 1;
+}
+
+::placeholder {
+  opacity: 1;
+}
+
+#Send {
+  width: 30%;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: white;
+  background-color: #1170fb;
+  padding: 0.5rem 0;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+#Send:hover {
+  transform: scale(1.02);
+}

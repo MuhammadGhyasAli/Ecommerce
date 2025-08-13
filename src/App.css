@@ -1,0 +1,164 @@
+.App {
+   background-color: #f6fafd;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden ;
+}
+
+#dealNoffers {
+  margin-top: 1.5%;
+  width: 77%;
+  display: flex;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  background-color: white;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+#dealNoffers #dealTime {
+  width: 22%;
+  height: auto;
+  padding-left: 2%;
+  font-size: 0.9vw;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+#dealNoffers #dealTime p {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-size: 0.9vw;
+  opacity: 0.7;
+}
+#dealNoffers #dealTime #time div {
+  color: white;
+  background-color: rgb(96, 96, 96);
+  text-align: center;
+  font-size: 0.9vw;
+  padding: 3% 3%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+#dealNoffers #dealTime #time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+#dealNoffers #dealProducts {
+  display: flex;
+  align-items: center;
+  width: 77%;
+}
+#dealNoffers #dealProducts div img {
+  width: 80%;
+  height: 80%;
+}
+
+#dealNoffers #dealProducts div {
+  cursor: pointer;
+  text-align: center;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  height: auto;
+}
+#dealNoffers #dealProducts div #discount {
+  color: #eb001b;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 1pc;
+  font-weight: bold;
+  font-size: 0.9vw;
+  background-color: #ffe3e3;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#dealNoffers #dealProducts div p {
+  font-size: 0.9vw;
+  margin: 5% 0%;
+}
+
+/* Section: Request form to supplier */
+#supplierRequestSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  width: 71%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 0.75%;
+  background: url("../public/Brand/Image/Banner.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+#supplierRequestSection #titleNtext h1 {
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+#supplierRequestSection #titleNtext p {
+  color: white;
+  margin-bottom: 1%;
+  font-size: 0.9vw;
+}
+#supplierRequestSection #requestForm {
+  background-color: white;
+  padding: 1% 1%;
+  border-radius: 5px;
+  width: 40%;
+  margin-bottom: 3%;
+}
+#supplierRequestSection #requestForm h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1vw;
+}
+#supplierRequestSection #requestForm input {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  width: 96%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5%;
+  font-size: 0.9vw;
+  padding-left: 2%;
+}
+#supplierRequestSection #requestForm #details {
+  padding-bottom: 10%;
+}
+#supplierRequestSection #requestForm #quntNpc {
+  display: flex;
+  width: 70%;
+}
+#supplierRequestSection #requestForm #quntNpc input {
+  margin-right: 1%;
+}
+::placeholder {
+  opacity: 1;
+}
+#supplierRequestSection #requestForm #Send {
+  width: 25%;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: white;
+  background-color: #1170fb;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 4%;
+  font-size: 0.9vw;
+}
+#supplierRequestSection #requestForm #Send:hover {
+  transform: scale(1.02);
+  transition: all smooth 0.2;
+}

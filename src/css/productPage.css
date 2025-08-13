@@ -1,0 +1,67 @@
+.pPheading {
+  margin-left: 11%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+}
+.product-heading {
+  margin-left: 11%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+}
+.productPageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productPageData {
+  margin-top: 1.5%;
+  width: 77%;
+  display: flex;
+  height: auto;
+  margin-left: 11%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 11%;
+  background-color: white;
+  padding-bottom: 0%;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 1%;
+}
+
+.productPageData #productsData {
+  width: 100%;
+  height: auto;
+}
+.productPageData #productsData #row-one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding-left: 1vw;
+}
+.productPageData #productsData #row-one a:hover {
+  border-radius: 21px;
+  background: #ffffff;
+  box-shadow: 13px 13px 32px #dedede, -13px -13px 32px #ffffff;
+}
+
+.interiorProducts #products div {
+  justify-content: space-between;
+  text-align: left;
+}
+
+div .price {
+  font-size: 0.85vw;
+  opacity: 0.6;
+  margin-left: 11%;
+  margin-bottom: 15%;
+}
+
+.product-img {
+  margin-top: 12%;
+  width: 50%;
+  height: auto;
+  padding-left: 3vw;
+}

@@ -1,0 +1,78 @@
+
+#dealNoffers {
+  display: flex;
+  height: auto;
+}
+
+#dealTime {
+  width: 22%;
+  padding: 0.75% 2%;
+  font-size: 0.9rem;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+
+#dealTime p {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+#time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+#time .time-box {
+  color: white;
+  background-color: rgb(96, 96, 96);
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 3% 3%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+
+#dealProducts {
+  display: flex;
+  align-items: center;
+  width: 77%;
+  flex-wrap: wrap;
+}
+
+.product-link {
+  cursor: pointer;
+  text-align: center;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+  padding: 1rem;
+  width: 16.22%;
+  transition: transform 0.2s ease-in-out;
+}
+.product-link:hover {
+  border-radius: 12px;
+background: #ffffff;
+box-shadow:  9px 9px 34px #b0b0b0,
+             -9px -9px 34px #606060;
+}
+
+.product-link img {
+  width: 80%;
+  height: auto;
+}
+
+.product-link:hover {
+  transform: scale(1.02);
+}
+
+.discount {
+  color: #eb001b;
+  background-color: #ffe3e3;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0.5rem auto;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  width: fit-content;
+}

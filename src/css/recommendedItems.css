@@ -1,0 +1,91 @@
+/* Section: Recommended Items */
+#recommendedItems {
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-bottom: 0.75%;
+}
+#recommendedItems div {
+  font-size: 1.5rem;
+  font-weight: semi-bold;
+  letter-spacing: -0.2px;
+}
+#recommendedItems #products {
+  height: auto;
+}
+#recommendedItems #products .recomdProd {
+  padding-left: 2vw;
+}
+#recommendedItems #products .recomdProd:hover {
+  transform: translateY(-2px);
+  border-radius: 21px;
+  background: linear-gradient(145deg, #ffffff, #dde1e4);
+  box-shadow: 25px 25px 56px #7d8081, -25px -25px 56px #ffffff;
+}
+#recommendedItems #products #first-row {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  height: auto;
+}
+
+#recommendedItems #products #first-row div {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  padding: 1% 1%;
+  margin-right: 1%;
+  background-color: white;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+#recommendedItems #products #first-row div img {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  height: auto;
+}
+.priceRecomended {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 400;
+  font-size: 1.01em;
+  text-align: center;
+}
+#recommendedItems #products #first-row div .description {
+  opacity: 0.5;
+  font-size: 0.8vw;
+}
+
+#recommendedItems #products #second-row {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  height: auto;
+}
+#recommendedItems #products #second-row div {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  padding: 1% 1%;
+  margin-right: 1%;
+  background-color: white;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+#recommendedItems #products #second-row div img {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  height: auto;
+}
+#recommendedItems #products #second-row div .priceRecomended {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 400;
+  font-size: 0.9vw;
+}
+#recommendedItems #products #second-row div .description {
+  opacity: 0.5;
+  font-size: 0.8vw;
+}

@@ -1,0 +1,218 @@
+.foot {
+  height: auto;
+  width: 100%;
+  background-color: rgb(226, 226, 229);
+}
+
+
+/* Section: Subscription */
+#subscription {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  
+}
+
+#subscription h2 {
+  font-size: 1.4vw;
+  margin-bottom: 0.25%;
+}
+#subscription p {
+  font-size: 0.9vw;
+  opacity: 0.6;
+  margin-bottom: 0.5%;
+}
+#subscription div {
+  padding-top: 0.5%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  align-items: baseline;
+}
+#subscription div input {
+    border: none;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 12%;
+    font-size: 0.9vw;
+    padding-left: 1%;
+    border-radius: 3%;
+    margin-right: 0.5%;
+}
+/* Subscription input on focus */
+#subscription input[type="email"]:focus {
+  border: none;
+  background-color: #f6fafd;              
+  outline: none;
+}
+
+/* Fallback colour when not focused */
+#subscription input[type="email"] {
+  background-color: #fff;   
+  transition: background-color 0.2s ease;
+}
+#subscription div p {
+  margin-bottom: 0%;
+  text-align: center;
+  font-size: 0.9vw;
+  opacity: 1;
+  padding: 0.5% 0.5%;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 9%;
+  background-color: #1170fb;
+}
+#subscription div p:hover {
+  transform: scale(1.02);
+  transition: all smooth 0.2;
+}
+.footerAbove {
+  padding-top: 2vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+.info {
+  width: 276px;
+  height: 157px;
+}
+.logoImg {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+.para {
+  height: 16px;
+  color: #8b96a5;
+  font-size: medium;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  letter-spacing: -0.2px;
+}
+.socialIcons {
+  width: 200px;
+  height: 32px;
+  display: flex;
+  gap: 8px;
+  margin-top: 5vh;
+}
+.socialIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.footCol {
+  font-family: Inter, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  width: 137px;
+  height: 81px;
+  text-align: left;
+  list-style: none;
+}
+.heading {
+  color: #1c1c1c;
+  margin-bottom: 2px;
+}
+#colHeading {
+  width: 47px;
+  height: 22px;
+  color: #1c1c1c;
+}
+
+.colList {
+  height: 25px;
+  cursor: pointer;
+  color: #8b96a5;
+  font-size: small;
+}
+.btn {
+  width: 124px;
+  height: 38px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+.btnLink {
+  background-color: black;
+  border-radius: 8px;
+  margin-bottom: 1.5vh;
+}
+.btnTxt {
+  display: flex;
+  flex-direction: column;
+  column-gap: 1%;
+  margin: 0px;
+}
+.btnPara {
+  font-size: 15px;
+
+  /* line-height: 3%; */
+}
+
+.txtSmall {
+  font-size: 9px;
+}
+.transform {
+  text-transform: uppercase;
+}
+.footerBottom {
+      height: 48px;
+    background-color: #eff2f4;
+    display: flex
+;
+    align-items: center;
+    gap: 67vw;
+}
+.copyRight {
+  margin-left: 7vw;
+}
+.flag-icon {
+  width: 20px;
+  height: 15px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropbtn {
+  list-style: none;
+  cursor: pointer;
+}
+
+.dropdown-footer {
+  position: absolute;
+  bottom: 100%; /* Renders above */
+  left: 0;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  z-index: 1000;
+  display: none;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

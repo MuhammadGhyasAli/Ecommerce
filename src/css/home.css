@@ -1,0 +1,12 @@
+.Home {
+  background-color: #f6fafd;
+  overflow-x: hidden;
+}
+.dealArea {
+  margin-top: 1.5%;
+  width: 77%;
+  
+  margin-left: 11%;
+  margin-right: 11%;
+  background-color: white;
+}

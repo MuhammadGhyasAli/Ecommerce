@@ -1,0 +1,332 @@
+.pageContainer {
+  background-color: #f6fafd;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.main-order-area {
+  display: flex;
+}
+
+#navigation-text {
+  opacity: 0.5;
+  font-size: 0.9vw;
+  margin-left: 2%;
+
+  display: flex;
+  align-items: center;
+  padding-left: 2vw;
+}
+
+.sideContainerOrder {
+  cursor: pointer;
+  width: 15%;
+  background-color: #f7fafc;
+  height: fit-content;
+  margin-left: 4%;
+  margin-right: 1%;
+}
+.sideContainerOrder ul li {
+  font-size: 0.9vw;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  padding-top: 3.8%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
+.sideContainerOrder ul li:hover {
+  transition: all smooth 0.2s;
+  font-weight: bold;
+  background-color: #e5f1fe;
+}
+.SeeMore {
+  color: #569afc;
+}
+.checkboxLabel {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.checkboxInput {
+  width: 16px;
+  height: 16px;
+}
+.headSide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainContainer {
+  width: 80%;
+  height: auto;
+}
+.upperBox {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  gap: 41%;
+  height: auto;
+  background-color: white;
+  padding: 2vh 2vw;
+  border-radius: 7px;
+}
+#checkBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.dropdownBtn {
+  background-color: #ffffff;
+  padding: 2vh 2vw;
+  border: 1px solid #eaecef;
+  border-radius: 5px;
+}
+
+.toggleWrapper {
+  display: inline-flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.toggleBtn {
+  border: none;
+  background-color: transparent;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleBtn img {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%); /* default gray icon */
+}
+
+.toggleBtn.active {
+  background-color: #eff2f4;
+  border-right: 1px solid #ccc;
+}
+
+.toggleBtn.active img {
+  filter: none; /* restore original color for active */
+}
+
+.toggleBtn:last-child {
+  border-right: none;
+}
+
+.productArea {
+  display: flex;
+  flex-direction: column;
+}
+#first-row {
+  padding: 1vw;
+}
+.productList {
+  display: flex;
+  padding-left: 1vw;
+
+  gap: 2vw;
+}
+
+.productCard {
+  height: auto;
+
+  padding: 1vw;
+  background-color: white;
+}
+#cardSeperator {
+  padding: 0%;
+  color: rgb(134, 134, 134);
+  width: 100%;
+}
+.priceHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wishAdd {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 64%;
+  right: 14px;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 6px 4px 4px 0.2px rgb(210 200 200 / 56%);
+
+  border: 2px solid #eaeeee;
+  border-radius: 5px;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wishAdd:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+
+  box-shadow: inset 0 3px 6px rgb(210 200 200 / 56%);
+  border: 1px solid #f2f3f3;
+  padding: 2%;
+}
+#ratingOfProduct {
+  display: flex;
+  align-items: center;
+}
+#checked {
+  padding-left: 2%;
+}
+.productCardWrapper {
+  position: relative;
+}
+.priceAmount {
+  display: flex;
+  font-size: 1.3em;
+
+  justify-content: space-between;
+}
+
+.contentOfPrice {
+  color: #8d8a8a;
+  display: flex;
+  justify-content: space-between;
+}
+.cancalPrice {
+  text-decoration: line-through;
+  color: #8d8a8a;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: right;
+  gap: 12px;
+}
+
+/* Dropdown */
+.dropdown select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Pagination Buttons */
+.pagination {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.page-btn {
+  padding: 10px 12px;
+  border: none;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.page-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.page-btn.active {
+  background-color: #cacbcd;
+  font-weight: bold;
+  color: #5a5a5a;
+  cursor: default;
+}
+.emptyContainer {
+  height: 20vh;
+  width: 100%;
+}
+
+/* GRID view */
+.productList.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 34px;
+}
+
+.productList.grid .productCardWrapper {
+  display: block;
+}
+
+/* LIST view */
+.productList.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.productList.list .productCardWrapper {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #ffffff;
+  align-items: stretch; /* This makes children take full height */
+}
+
+.productList.list .productImage {
+  width: 200px; /* Keep it wide enough */
+  height: 100%; /* Fill full height of card */
+  object-fit: cover; /* Prevent distortion */
+  margin-right: 20px;
+}
+
+.productList.list .productCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.productList.list #cardSeperator {
+  width: 0vh;
+}
+.productList.list .productCardWrapper .priceHead {
+      position: absolute;
+    top: 32%;
+    font-size: 20px;
+        padding-left: 10vw;
+}
+.productList.list .productCardWrapper .priceContent {
+  display: flex;
+  gap: 0.5vw;
+  font-size: 1.5em;
+  padding-left: 10vw;
+}
+
+.productList.list .productCardWrapper .wishAdd {
+  top: 49%;
+  right: 49px;
+}

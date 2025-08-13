@@ -1,0 +1,140 @@
+.heroContainer {
+  margin-top: 1.5%;
+  width: 77%;
+  display: flex;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%;
+  background-color: white;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sideContainer
+ {
+  cursor: pointer;
+  width: 22%;
+  height: fit-content;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.banner {
+  width: 50%;
+  height: 10%;
+  border: 1px solid E3F0FF;
+}
+.sideLeft {
+  width: 200px;
+  background-color: cadetblue;
+}
+ul {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  border-color: #0d6efd;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+.heroContainer .sideContainer ul li {
+  font-size: 0.9vw;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  padding-top: 3.8%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
+.heroContainer .sideContainer ul li:hover {
+  transition: all smooth 0.2s;
+  font-weight: bold;
+  background-color: #e5f1fe;
+}
+/* Login Portion */
+#login {
+  height: 10%;
+  padding-left: 1vw;
+}
+#login #topUp-1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* height: auto; */
+  padding-left: 10%;
+  border-radius: 8px;
+  padding-right: 10%;
+  background-color: rgb(228, 240, 254);
+}
+#login #topUp-1 > div {
+  display: flex;
+  align-items: center;
+}
+#login #topUp-1 div p {
+  margin-left: 5%;
+  font-size: 1.125em;
+}
+#categoryNlogin #login #topUp-1 div img {
+  width: 21%;
+  height: 21%;
+}
+
+/* join button */
+#categoryNlogin #login #topUp-1 .joinBtn {
+  cursor: pointer;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: white;
+  background-color: #1170fb;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-radius: 5px;
+  font-size: 0.9vw;
+}
+#categoryNlogin #login #topUp-1 .joinBtn:hover {
+  transform: scale(1.05);
+  transition: all smooth 0.2;
+}
+/* log btn */
+#categoryNlogin #login #topUp-1 .logBtn {
+  color: #1170fb;
+  background-color: white;
+  font-size: 0.9vw;
+  margin-bottom: 4%;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#categoryNlogin #login #topUp-1 .logBtn:hover {
+  transform: scale(1.05);
+  transition: all smooth 0.2;
+}
+
+#categoryNlogin #login #topUp-2 {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+  border-radius: 8px;
+  font-size: 1.05vw;
+  color: white; 
+  padding: 5% 10%;
+  background-color: rgb(243, 130, 49);
+}
+
+#categoryNlogin #login #topUp-3 {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  border-radius: 8px;
+  margin-bottom: 0%;
+ padding: 5% 0%;
+  font-size: 1.05vw;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #56bdc4;
+}

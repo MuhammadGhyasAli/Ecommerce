@@ -1,0 +1,48 @@
+/*  Section: Supplier by region */
+#supplyRegion {
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-bottom: 0.75%;
+}
+#supplyRegion h2 {
+  font-size: 1.4vw;
+  margin-bottom: 2%;
+}
+#flagNname{
+        width: 70vw;
+}
+#supplyRegion #flagNname #first-row {
+  display: flex;
+  margin-bottom: 3%;
+}
+#supplyRegion #flagNname #second-row {
+  display: flex;
+  margin-bottom: 3%;
+}
+#supplyRegion #flagNname article {
+  display: flex;
+  width: 100%;
+}
+#supplyRegion #flagNname article img {
+  width: 39%;
+    height: 73%;
+}
+
+#supplyRegion #flagNname article div {
+  padding-left: 8%;
+}
+#supplyRegion #flagNname article h4 {
+  font-size: 0.9vw;
+}
+#supplyRegion #flagNname article p {
+  cursor: pointer;
+  opacity: 0.6;
+  font-size: 0.9vw;
+}
+
+#supplyRegion #flagNname article p:hover{
+  color: rgb(112, 112, 247);
+}
